@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4C39C61CEE58CC000FE79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C39C51CEE58CC000FE79A /* AppDelegate.swift */; };
+		5A4C39C81CEE58CC000FE79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C39C71CEE58CC000FE79A /* ViewController.swift */; };
+		5A4C39CB1CEE58CC000FE79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4C39C91CEE58CC000FE79A /* Main.storyboard */; };
+		5A4C39CD1CEE58CC000FE79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4C39CC1CEE58CC000FE79A /* Assets.xcassets */; };
+		5A4C39D01CEE58CC000FE79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4C39CE1CEE58CC000FE79A /* LaunchScreen.storyboard */; };
+		5A4C39DB1CEE58CC000FE79A /* TaoBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C39DA1CEE58CC000FE79A /* TaoBirdTests.swift */; };
+		5A4C39E61CEE58CC000FE79A /* TaoBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C39E51CEE58CC000FE79A /* TaoBirdUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4C39D71CEE58CC000FE79A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4C39BA1CEE58CC000FE79A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4C39C11CEE58CC000FE79A;
+			remoteInfo = TaoBird;
+		};
+		5A4C39E21CEE58CC000FE79A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4C39BA1CEE58CC000FE79A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4C39C11CEE58CC000FE79A;
+			remoteInfo = TaoBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4C39C21CEE58CC000FE79A /* TaoBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4C39C51CEE58CC000FE79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A4C39C71CEE58CC000FE79A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A4C39CA1CEE58CC000FE79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4C39CC1CEE58CC000FE79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4C39CF1CEE58CC000FE79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A4C39D11CEE58CC000FE79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4C39D61CEE58CC000FE79A /* TaoBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4C39DA1CEE58CC000FE79A /* TaoBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoBirdTests.swift; sourceTree = "<group>"; };
+		5A4C39DC1CEE58CC000FE79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4C39E11CEE58CC000FE79A /* TaoBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4C39E51CEE58CC000FE79A /* TaoBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaoBirdUITests.swift; sourceTree = "<group>"; };
+		5A4C39E71CEE58CC000FE79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4C39BF1CEE58CC000FE79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C39D31CEE58CC000FE79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C39DE1CEE58CC000FE79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4C39B91CEE58CC000FE79A = {
+			isa = PBXGroup;
+			children = (
+				5A4C39C41CEE58CC000FE79A /* TaoBird */,
+				5A4C39D91CEE58CC000FE79A /* TaoBirdTests */,
+				5A4C39E41CEE58CC000FE79A /* TaoBirdUITests */,
+				5A4C39C31CEE58CC000FE79A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4C39C31CEE58CC000FE79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C39C21CEE58CC000FE79A /* TaoBird.app */,
+				5A4C39D61CEE58CC000FE79A /* TaoBirdTests.xctest */,
+				5A4C39E11CEE58CC000FE79A /* TaoBirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4C39C41CEE58CC000FE79A /* TaoBird */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C39C51CEE58CC000FE79A /* AppDelegate.swift */,
+				5A4C39C71CEE58CC000FE79A /* ViewController.swift */,
+				5A4C39C91CEE58CC000FE79A /* Main.storyboard */,
+				5A4C39CC1CEE58CC000FE79A /* Assets.xcassets */,
+				5A4C39CE1CEE58CC000FE79A /* LaunchScreen.storyboard */,
+				5A4C39D11CEE58CC000FE79A /* Info.plist */,
+			);
+			path = TaoBird;
+			sourceTree = "<group>";
+		};
+		5A4C39D91CEE58CC000FE79A /* TaoBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C39DA1CEE58CC000FE79A /* TaoBirdTests.swift */,
+				5A4C39DC1CEE58CC000FE79A /* Info.plist */,
+			);
+			path = TaoBirdTests;
+			sourceTree = "<group>";
+		};
+		5A4C39E41CEE58CC000FE79A /* TaoBirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C39E51CEE58CC000FE79A /* TaoBirdUITests.swift */,
+				5A4C39E71CEE58CC000FE79A /* Info.plist */,
+			);
+			path = TaoBirdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4C39C11CEE58CC000FE79A /* TaoBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4C39EA1CEE58CC000FE79A /* Build configuration list for PBXNativeTarget "TaoBird" */;
+			buildPhases = (
+				5A4C39BE1CEE58CC000FE79A /* Sources */,
+				5A4C39BF1CEE58CC000FE79A /* Frameworks */,
+				5A4C39C01CEE58CC000FE79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoBird;
+			productName = TaoBird;
+			productReference = 5A4C39C21CEE58CC000FE79A /* TaoBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4C39D51CEE58CC000FE79A /* TaoBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4C39ED1CEE58CC000FE79A /* Build configuration list for PBXNativeTarget "TaoBirdTests" */;
+			buildPhases = (
+				5A4C39D21CEE58CC000FE79A /* Sources */,
+				5A4C39D31CEE58CC000FE79A /* Frameworks */,
+				5A4C39D41CEE58CC000FE79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4C39D81CEE58CC000FE79A /* PBXTargetDependency */,
+			);
+			name = TaoBirdTests;
+			productName = TaoBirdTests;
+			productReference = 5A4C39D61CEE58CC000FE79A /* TaoBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A4C39E01CEE58CC000FE79A /* TaoBirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4C39F01CEE58CC000FE79A /* Build configuration list for PBXNativeTarget "TaoBirdUITests" */;
+			buildPhases = (
+				5A4C39DD1CEE58CC000FE79A /* Sources */,
+				5A4C39DE1CEE58CC000FE79A /* Frameworks */,
+				5A4C39DF1CEE58CC000FE79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4C39E31CEE58CC000FE79A /* PBXTargetDependency */,
+			);
+			name = TaoBirdUITests;
+			productName = TaoBirdUITests;
+			productReference = 5A4C39E11CEE58CC000FE79A /* TaoBirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4C39BA1CEE58CC000FE79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vaso Filipov";
+				TargetAttributes = {
+					5A4C39C11CEE58CC000FE79A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFZFAVETLR;
+					};
+					5A4C39D51CEE58CC000FE79A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFZFAVETLR;
+						TestTargetID = 5A4C39C11CEE58CC000FE79A;
+					};
+					5A4C39E01CEE58CC000FE79A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFZFAVETLR;
+						TestTargetID = 5A4C39C11CEE58CC000FE79A;
+					};
+				};
+			};
+			buildConfigurationList = 5A4C39BD1CEE58CC000FE79A /* Build configuration list for PBXProject "TaoBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4C39B91CEE58CC000FE79A;
+			productRefGroup = 5A4C39C31CEE58CC000FE79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4C39C11CEE58CC000FE79A /* TaoBird */,
+				5A4C39D51CEE58CC000FE79A /* TaoBirdTests */,
+				5A4C39E01CEE58CC000FE79A /* TaoBirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4C39C01CEE58CC000FE79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4C39D01CEE58CC000FE79A /* LaunchScreen.storyboard in Resources */,
+				5A4C39CD1CEE58CC000FE79A /* Assets.xcassets in Resources */,
+				5A4C39CB1CEE58CC000FE79A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C39D41CEE58CC000FE79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C39DF1CEE58CC000FE79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4C39BE1CEE58CC000FE79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4C39C81CEE58CC000FE79A /* ViewController.swift in Sources */,
+				5A4C39C61CEE58CC000FE79A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C39D21CEE58CC000FE79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4C39DB1CEE58CC000FE79A /* TaoBirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4C39DD1CEE58CC000FE79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4C39E61CEE58CC000FE79A /* TaoBirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4C39D81CEE58CC000FE79A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4C39C11CEE58CC000FE79A /* TaoBird */;
+			targetProxy = 5A4C39D71CEE58CC000FE79A /* PBXContainerItemProxy */;
+		};
+		5A4C39E31CEE58CC000FE79A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4C39C11CEE58CC000FE79A /* TaoBird */;
+			targetProxy = 5A4C39E21CEE58CC000FE79A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4C39C91CEE58CC000FE79A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4C39CA1CEE58CC000FE79A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A4C39CE1CEE58CC000FE79A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4C39CF1CEE58CC000FE79A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4C39E81CEE58CC000FE79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4C39E91CEE58CC000FE79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4C39EB1CEE58CC000FE79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yavar.TaoBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A4C39EC1CEE58CC000FE79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yavar.TaoBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A4C39EE1CEE58CC000FE79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yavar.TaoBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBird.app/TaoBird";
+			};
+			name = Debug;
+		};
+		5A4C39EF1CEE58CC000FE79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yavar.TaoBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBird.app/TaoBird";
+			};
+			name = Release;
+		};
+		5A4C39F11CEE58CC000FE79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoBirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yavar.TaoBirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoBird;
+			};
+			name = Debug;
+		};
+		5A4C39F21CEE58CC000FE79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoBirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yavar.TaoBirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoBird;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4C39BD1CEE58CC000FE79A /* Build configuration list for PBXProject "TaoBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4C39E81CEE58CC000FE79A /* Debug */,
+				5A4C39E91CEE58CC000FE79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4C39EA1CEE58CC000FE79A /* Build configuration list for PBXNativeTarget "TaoBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4C39EB1CEE58CC000FE79A /* Debug */,
+				5A4C39EC1CEE58CC000FE79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A4C39ED1CEE58CC000FE79A /* Build configuration list for PBXNativeTarget "TaoBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4C39EE1CEE58CC000FE79A /* Debug */,
+				5A4C39EF1CEE58CC000FE79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A4C39F01CEE58CC000FE79A /* Build configuration list for PBXNativeTarget "TaoBirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4C39F11CEE58CC000FE79A /* Debug */,
+				5A4C39F21CEE58CC000FE79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4C39BA1CEE58CC000FE79A /* Project object */;
+}
